@@ -56,6 +56,9 @@ export default function Footer({ scrollToSection }) {
               <Link to="/privacy" className="block text-gray-600 hover:text-gray-900 transition-colors">
                 Privacy Policy
               </Link>
+              <Link to="/terms-of-service" className="block text-gray-600 hover:text-gray-900 transition-colors">
+                Terms of Service
+              </Link>
             </div>
           </div>
 

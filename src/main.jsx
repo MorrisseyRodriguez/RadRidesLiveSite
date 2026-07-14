@@ -11,6 +11,7 @@ import About from './components/About.jsx'
 import RequestCar from './components/RequestCar.jsx'
 import PrivacyPolicy from './components/PrivacyPolicy.jsx'
 import InsurancePolicy from './components/InsurancePolicy.jsx'
+import TermsOfService from './components/TermsOfService.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
 import { carsData } from './data/cars.jsx'
 import './index.css'
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
       {
         path: "/insurance-policy",
         element: <InsurancePolicy />,
+      },
+      {
+        path: "/terms-of-service",
+        element: <TermsOfService />,
       },
     ],
   },
