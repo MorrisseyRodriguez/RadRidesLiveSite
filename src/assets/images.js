@@ -39,7 +39,6 @@ import bmwM4Img1 from './M4 BMW/BMW4.png';
 import bmwM4Img2 from './M4 BMW/BMW2.png';
 import bmwM4Img3 from './M4 BMW/BW3.png';
 import bmwM4Img4 from './M4 BMW/BMW6.png';
-import bmwM4Img5 from './M4 BMW/BMW7.png';
 
 // Team Images
 import teamChad from './Team/team-chad.png';
@@ -156,8 +155,7 @@ export const images = {
       bmwM4Img1,                 // 1st - BMW4.png
       bmwM4Img2,                 // 2nd - BMW2.png
       bmwM4Img3,                 // 3rd - BW3.png
-      bmwM4Img4,                 // 4th - BMW6.png
-      bmwM4Img5                  // 5th - BMW7.png
+      bmwM4Img4                  // 4th - BMW6.png
     ],
     fallbacks: highQualityFallbacks.bmw
   },
