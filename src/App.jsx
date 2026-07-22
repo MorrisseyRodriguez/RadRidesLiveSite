@@ -157,7 +157,7 @@ function App() {
 
               <div className="p-6">
                 <div className="text-xl font-bold text-white leading-tight mb-2 uppercase tracking-wide">
-                  M4
+                  M4 Competition
                 </div>
                 <Link
                   to="/cars/bmw-m4"
