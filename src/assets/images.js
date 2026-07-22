@@ -34,6 +34,12 @@ import jeepWranglerImg2 from './Jeep Wrangler/IMG_20250617_151937 (1).jpg';
 import jeepWranglerMain from './Jeep Wrangler/IMG_20250617_151937.jpg';
 import jeepWranglerNewImg from './Jeep Wrangler/Screenshot 2025-08-27 124716.png';
 
+// BMW M4 Images
+import bmwM4Img1 from './M4 BMW/BMW4.png';
+import bmwM4Img2 from './M4 BMW/BMW2.png';
+import bmwM4Img3 from './M4 BMW/BW3.png';
+import bmwM4Img4 from './M4 BMW/BMW6.png';
+
 // Team Images
 import teamChad from './Team/team-chad.png';
 import teamDara from './Team/team-dara.png';
@@ -78,6 +84,10 @@ const highQualityFallbacks = {
     'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop&crop=center&auto=format&q=80',
     'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=center&auto=format&q=80',
     'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&h=600&fit=crop&crop=center&auto=format&q=80'
+  ],
+  bmw: [
+    'https://images.unsplash.com/photo-1555215695-30049d0e56e2?w=800&h=600&fit=crop&crop=center&auto=format&q=80',
+    'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&h=600&fit=crop&crop=center&auto=format&q=80'
   ]
 };
 
@@ -138,6 +148,16 @@ export const images = {
       jeepWranglerMain           // 3rd - IMG_20250617_151937.jpg
     ],
     fallbacks: highQualityFallbacks.jeep
+  },
+  bmwM4: {
+    main: bmwM4Img1,             // BMW4.png
+    gallery: [
+      bmwM4Img1,                 // 1st - BMW4.png
+      bmwM4Img2,                 // 2nd - BMW2.png
+      bmwM4Img3,                 // 3rd - BW3.png
+      bmwM4Img4                  // 4th - BMW6.png
+    ],
+    fallbacks: highQualityFallbacks.bmw
   },
   team: {
     chad: teamChad,

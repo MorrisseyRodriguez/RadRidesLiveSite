@@ -206,6 +206,8 @@ export default function CarDetail() {
         return '$350';
       case 'Jeep Wrangler Rubicon 4xe':
         return '$400';
+      case 'BMW M4':
+        return '$600';
       default:
         return 'Contact for pricing';
     }

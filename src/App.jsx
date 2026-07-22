@@ -140,10 +140,38 @@ function App() {
               </div>
             </div>
 
+            {/* BMW M4 */}
+            <div className="bg-gray-900 border border-gray-700 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group">
+              <div className="relative overflow-hidden bg-black h-80">
+                <img
+                  src={images.bmwM4.main}
+                  alt="BMW M4"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute top-6 left-6">
+                  <div className="text-white font-light text-lg tracking-[0.2em] uppercase" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, sans-serif', fontWeight: 300 }}>
+                    BMW
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-6">
+                <div className="text-xl font-bold text-white leading-tight mb-2 uppercase tracking-wide">
+                  M4
+                </div>
+                <Link
+                  to="/cars/bmw-m4"
+                  className="w-full bg-transparent border border-white text-white px-6 py-3 hover:bg-white hover:text-black transition-all duration-300 font-medium text-center block uppercase tracking-wider"
+                >
+                  VIEW RIDE
+                </Link>
+              </div>
+            </div>
+
             {/* Cadillac Escalade Sport Platinum */}
             <div className="bg-gray-900 border border-gray-700 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group">
               <div className="relative overflow-hidden bg-black h-80">
-                <img 
+                <img
                   src={images.escalade.main}
                   alt="Cadillac Escalade Sport Platinum"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -154,12 +182,12 @@ function App() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="p-6">
                 <div className="text-xl font-bold text-white leading-tight mb-2 uppercase tracking-wide">
                   Escalade Sport Platinum
                 </div>
-                <Link 
+                <Link
                   to="/cars/cadillac-escalade-sport-platinum"
                   className="w-full bg-transparent border border-white text-white px-6 py-3 hover:bg-white hover:text-black transition-all duration-300 font-medium text-center block uppercase tracking-wider"
                 >

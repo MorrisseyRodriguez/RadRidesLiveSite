@@ -90,5 +90,23 @@ export const carsData = {
       'Uconnect infotainment'
     ],
     overview: 'The Wrangler Rubicon 4xe combines legendary off-road capability with modern hybrid efficiency. Whether you\'re conquering trails or cruising the city, this Jeep delivers adventure and sustainability.'
+  },
+  'bmw-m4': {
+    name: 'BMW M4',
+    image: images.bmwM4.main,
+    fallbacks: images.bmwM4.fallbacks,
+    images: images.bmwM4.gallery,
+    acceleration: '3.8s',
+    horsepower: '503 HP',
+    seats: 4,
+    features: [
+      'Twin-turbo inline-six engine',
+      '6-speed manual transmission',
+      'Adaptive M suspension',
+      'M Sport differential',
+      'Carbon fiber roof',
+      'Harman Kardon premium audio'
+    ],
+    overview: 'The BMW M4 blends raw performance with everyday refinement. Its twin-turbo inline-six delivers exhilarating power, while the adaptive M suspension and precise 6-speed manual transmission make every drive unforgettable.'
   }
 };
