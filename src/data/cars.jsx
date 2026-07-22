@@ -107,6 +107,6 @@ export const carsData = {
       'Carbon fiber roof',
       'Harman Kardon premium audio'
     ],
-    overview: 'The BMW M4 blends raw performance with everyday refinement. Its twin-turbo inline-six delivers exhilarating power, while the adaptive M suspension and precise 6-speed manual transmission make every drive unforgettable.'
+    overview: "Experience the ultimate high-performance drop-top with the BMW M4 Competition xDrive Convertible. Powered by a 3.0-liter M TwinPower Turbo inline 6-cylinder engine delivering 503 horsepower and 479 lb-ft of torque, this precision machine rockets from 0 to 60 mph in just 3.6 seconds. Featuring BMW's advanced M xDrive all-wheel-drive system and an 8-speed M Steptronic automatic transmission, it offers unmatched traction, agility, and open-air luxury for any drive."
   }
 };
